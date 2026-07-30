@@ -65,7 +65,3 @@ Smart_Home_Control.ino (Starter)
       delay(300);
     }
 
-Libraries: - LiquidCrystal_I2C - DHT sensor library by Adafruit
-
-Note: This is a starter sketch matching the conceptual diagram, not an
-exact hardware-specific implementation.
