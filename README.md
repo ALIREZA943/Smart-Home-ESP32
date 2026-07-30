@@ -76,9 +76,9 @@ Smart-Home-Arduino/
 │
 ├── Smart_Home_Control.ino
 ├── README.md
-├── Images/
-├── Circuit/
-└── Documentation/
+├── Images&Circuit/
+
+
 ```
 
 ---
