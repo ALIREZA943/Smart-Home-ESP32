@@ -1,177 +1,107 @@
-# 🏠 Smart Home Automation System using Arduino
+# 🏠 ESP32 IoT Smart Home Automation System
 
-![Arduino](https://img.shields.io/badge/Arduino-Uno-blue)
-![Language](https://img.shields.io/badge/Language-C++-orange)
-![Platform](https://img.shields.io/badge/Platform-Arduino_IDE-green)
-![License](https://img.shields.io/badge/License-MIT-red)
 
-## 📖 Overview
+![Project Banner](./Images/Project_Final.jpg)
 
-The Smart Home Automation System is an embedded systems project developed using the Arduino Uno platform. This project demonstrates the integration of multiple sensors, actuators, and display modules to create a simple yet effective home automation prototype.
 
-The system continuously monitors environmental conditions using a DHT22 temperature and humidity sensor, displays real-time data on a 16×2 I2C LCD, controls electrical appliances through a relay module, and operates a stepper motor using a push button interface.
+## 📌 Overview
 
-This project was designed to improve practical skills in embedded systems, electronics, automation, and IoT development while following modular programming principles.
+This project presents an IoT-based Smart Home Automation System developed using an ESP32 microcontroller.
+
+The system is designed to monitor environmental parameters and control home appliances through embedded programming and wireless communication.
+
+The project demonstrates practical applications of:
+
+- Embedded Systems
+- Internet of Things (IoT)
+- Microcontroller Programming
+- Sensor Integration
+- Real-Time Control Systems
+
 
 ---
 
 # ✨ Features
 
-- 🌡️ Real-time Temperature Monitoring
-- 💧 Humidity Measurement
-- 📟 LCD I2C Display
-- 🔌 Relay Control
-- 🔘 Push Button Interface
-- ⚙️ Stepper Motor Control
-- 📊 Real-Time Sensor Display
-- 🛠 Modular Arduino Programming
-- 📚 Educational Embedded System Project
+✅ ESP32 based control system
+
+✅ WiFi communication
+
+✅ Remote appliance control
+
+✅ Relay-based switching
+
+✅ Sensor data monitoring
+
+✅ Real-time embedded processing
+
+✅ Low-cost smart home architecture
+
 
 ---
 
 # 🛠 Hardware Components
 
-| Component | Quantity |
-|-----------|----------|
-| Arduino Uno | 1 |
-| DHT22 Sensor | 1 |
-| 16x2 LCD I2C | 1 |
-| Relay Module | 1 |
-| Push Button | 1 |
-| ULN2003 Driver | 1 |
-| 28BYJ-48 Stepper Motor | 1 |
-| Breadboard | 1 |
-| Jumper Wires | Several |
-| Power Supply | 5V |
+
+| Component | Description |
+|---|---|
+| ESP32 | Main microcontroller and communication unit |
+| Relay Module | Appliance switching |
+| Temperature Sensor | Environmental monitoring |
+| LEDs | Status indicators |
+| Power Supply | System power source |
+
 
 ---
 
-# 💻 Software
+# 🔧 System Architecture
+
+
+![System Architecture](./Images/System_Architecture.png)
+
+
+
+The system consists of three main sections:
+
+
+### 1. Input Layer
+
+Sensors collect environmental data and send information to ESP32.
+
+
+### 2. Processing Layer
+
+ESP32 processes sensor data and controls output devices.
+
+
+### 3. Output Layer
+
+Relay modules control electrical appliances based on user commands.
+
+
+---
+
+# 💻 Software Development
+
+
+## Programming Language
+
+- C/C++
+
+
+## Development Environment
 
 - Arduino IDE
-- Embedded C++
-- Wire Library
-- LiquidCrystal_I2C
-- DHT Library
-- Stepper Library
 
----
 
-# ⚡ System Workflow
+## Libraries
 
-1. Arduino initializes all peripherals.
-2. DHT22 measures temperature and humidity.
-3. LCD displays real-time environmental data.
-4. Push button detects user input.
-5. Relay switches connected appliances ON/OFF.
-6. Stepper motor rotates after every successful button press.
-7. The system continuously repeats the monitoring process.
+- ESP32 WiFi Library
+- Sensor Libraries
+- Arduino Framework
+
 
 ---
 
 # 📂 Project Structure
 
-```
-Smart-Home-Arduino/
-│
-├── Smart_Home_Control.ino
-├── README.md
-├── Images/
-├── Circuit/
-└── Documentation/
-```
-
----
-
-# 🔧 Pin Configuration
-
-| Device | Arduino Pin |
-|----------|------------|
-| DHT22 | D4 |
-| Relay | D8 |
-| Push Button | D7 |
-| Stepper IN1 | D10 |
-| Stepper IN2 | D11 |
-| Stepper IN3 | D12 |
-| Stepper IN4 | D13 |
-| LCD SDA | A4 |
-| LCD SCL | A5 |
-
----
-
-# 📈 Project Objectives
-
-- Learn Embedded Systems Programming
-- Interface Multiple Electronic Modules
-- Understand Sensor Communication
-- Control Actuators
-- Develop Practical Arduino Skills
-- Build a Foundation for IoT Applications
-
----
-
-# 🚀 Future Improvements
-
-- ESP32 Wi-Fi Integration
-- Mobile Application Control
-- MQTT Communication
-- Cloud Monitoring
-- Voice Assistant Integration
-- Automatic Climate Control
-- AI-Based Home Automation
-- Energy Consumption Monitoring
-
----
-
-# 📷 Project Images
-
-Add the following images:
-
-- Circuit Diagram
-- Hardware Setup
-- LCD Display
-- Arduino Wiring
-- Final Project
-
----
-
-# 🎥 Demonstration
-
-A short demonstration video can be added to show the project operation.
-
----
-
-# 📚 Learning Outcomes
-
-This project demonstrates knowledge in:
-
-- Embedded Systems
-- Arduino Programming
-- Sensor Interfacing
-- Stepper Motor Control
-- Relay Switching
-- Real-Time Monitoring
-- Home Automation
-- Electronics Design
-
----
-
-# 👨‍💻 Author
-
-**Alireza Rezaei Asl**
-
-Electrical & Control Engineering Student
-
-📍 Isfahan, Iran
-
-📧 alirezarezaii943@gmail.com
-
-🔗 GitHub
-
-https://github.com/ALIREZA943
-
----
-
-# ⭐ Support
-
-If you found this project useful, please consider giving it a ⭐ on GitHub.
