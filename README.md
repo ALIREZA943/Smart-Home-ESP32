@@ -123,24 +123,6 @@ Smart-Home-Arduino/
 
 ---
 
-# 📷 Project Images
-
-Add the following images:
-
-- Circuit Diagram
-- Hardware Setup
-- LCD Display
-- Arduino Wiring
-- Final Project
-
----
-
-# 🎥 Demonstration
-
-A short demonstration video can be added to show the project operation.
-
----
-
 # 📚 Learning Outcomes
 
 This project demonstrates knowledge in:
